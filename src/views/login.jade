@@ -1,0 +1,16 @@
+extends ./base.jade
+block append style
+    link(rel="stylesheet", type="text/css", href="/assets/style.css")
+block body
+  nav
+    a(href="/login")
+      img#logo(src="/assets/image/favicon.png", alt="face logo")
+    .navlink
+      a(href="/auth/facebook") Login
+  div#error
+  section#login
+
+   
+  
+block scripts
+    script(src="/assets/client.js")
